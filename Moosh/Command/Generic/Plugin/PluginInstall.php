@@ -93,7 +93,7 @@ class PluginInstall extends MooshCommand
         echo "Installing\n";
         echo "\tname:    $pluginname\n";
         echo "\tversion: $pluginversion\n";
-        upgrade_noncore(true);
+        // upgrade_noncore(true);
         echo "Done\n";
     }
 
